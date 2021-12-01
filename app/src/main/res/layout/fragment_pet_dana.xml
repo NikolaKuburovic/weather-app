@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".PetDana">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mesto"
+        android:id="@+id/mestoTextView2"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linija1"
+        android:layout_below="@+id/mestoTextView2"
+        android:text="--------------------------------------------------------------------------------"
+        />
+
+    <!-- ****************************************************** -->
+    <!-- PRVI DAN -->
+    <!-- ****************************************************** -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Datum"
+        android:id="@+id/datumTextView2"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/linija1"
+        android:layout_marginTop="5dp"
+        android:textColor="#eb560c"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temperatura:"
+        android:id="@+id/temperaturaTextView2"
+        android:layout_below="@+id/datumTextView2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:textColor="#737373"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vreme:"
+        android:id="@+id/opisTextView2"
+        android:textSize="15sp"
+        android:layout_below="@+id/temperaturaTextView2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pritisak:"
+        android:id="@+id/pritisakTextView2"
+        android:textSize="15sp"
+        android:layout_below="@+id/opisTextView2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vlažnost:"
+        android:id="@+id/vlaznostTextView2"
+        android:textSize="15sp"
+        android:layout_below="@+id/pritisakTextView2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linija2"
+        android:layout_below="@+id/vlaznostTextView2"
+        android:text="--------------------------------------------------------------------------------"
+        />
+
+    <!-- ****************************************************** -->
+    <!-- DRUGI DAN -->
+    <!-- ****************************************************** -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Datum"
+        android:id="@+id/datumTextView3"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/linija2"
+        android:layout_marginTop="5dp"
+        android:textColor="#eb560c"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temperatura:"
+        android:id="@+id/temperaturaTextView3"
+        android:layout_below="@+id/datumTextView3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:textColor="#737373"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vreme:"
+        android:id="@+id/opisTextView3"
+        android:textSize="15sp"
+        android:layout_below="@+id/temperaturaTextView3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pritisak:"
+        android:id="@+id/pritisakTextView3"
+        android:textSize="15sp"
+        android:layout_below="@+id/opisTextView3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vlažnost:"
+        android:id="@+id/vlaznostTextView3"
+        android:textSize="15sp"
+        android:layout_below="@+id/pritisakTextView3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linija3"
+        android:layout_below="@+id/vlaznostTextView2"
+        android:text="--------------------------------------------------------------------------------"
+        />
+
+    <!-- ****************************************************** -->
+    <!-- TRECI DAN -->
+    <!-- ****************************************************** -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Datum"
+        android:id="@+id/datumTextView4"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/linija3"
+        android:layout_marginTop="5dp"
+        android:textColor="#eb560c"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temperatura:"
+        android:id="@+id/temperaturaTextView4"
+        android:layout_below="@+id/datumTextView4"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:textColor="#737373"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vreme:"
+        android:id="@+id/opisTextView4"
+        android:textSize="15sp"
+        android:layout_below="@+id/temperaturaTextView4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pritisak:"
+        android:id="@+id/pritisakTextView4"
+        android:textSize="15sp"
+        android:layout_below="@+id/opisTextView4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vlažnost:"
+        android:id="@+id/vlaznostTextView4"
+        android:textSize="15sp"
+        android:layout_below="@+id/pritisakTextView4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linija4"
+        android:layout_below="@+id/vlaznostTextView2"
+        android:text="--------------------------------------------------------------------------------"
+        />
+
+    <!-- ****************************************************** -->
+    <!-- CETVRTI DAN -->
+    <!-- ****************************************************** -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Datum"
+        android:id="@+id/datumTextView5"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/linija4"
+        android:layout_marginTop="5dp"
+        android:textColor="#eb560c"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temperatura:"
+        android:id="@+id/temperaturaTextView5"
+        android:layout_below="@+id/datumTextView5"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:textColor="#737373"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vreme:"
+        android:id="@+id/opisTextView5"
+        android:textSize="15sp"
+        android:layout_below="@+id/temperaturaTextView5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pritisak:"
+        android:id="@+id/pritisakTextView5"
+        android:textSize="15sp"
+        android:layout_below="@+id/opisTextView5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vlažnost:"
+        android:id="@+id/vlaznostTextView5"
+        android:textSize="15sp"
+        android:layout_below="@+id/pritisakTextView5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linija5"
+        android:layout_below="@+id/vlaznostTextView2"
+        android:text="--------------------------------------------------------------------------------"
+        />
+
+    <!-- ****************************************************** -->
+    <!-- PETI DAN -->
+    <!-- ****************************************************** -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Datum"
+        android:id="@+id/datumTextView6"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/linija5"
+        android:layout_marginTop="5dp"
+        android:textColor="#eb560c"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temperatura:"
+        android:id="@+id/temperaturaTextView6"
+        android:layout_below="@+id/datumTextView6"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:textColor="#737373"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vreme:"
+        android:id="@+id/opisTextView6"
+        android:textSize="15sp"
+        android:layout_below="@+id/temperaturaTextView6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pritisak:"
+        android:id="@+id/pritisakTextView6"
+        android:textSize="15sp"
+        android:layout_below="@+id/opisTextView6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vlažnost:"
+        android:id="@+id/vlaznostTextView6"
+        android:textSize="15sp"
+        android:layout_below="@+id/pritisakTextView6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linija6"
+        android:layout_below="@+id/vlaznostTextView2"
+        android:text="--------------------------------------------------------------------------------"
+        />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
